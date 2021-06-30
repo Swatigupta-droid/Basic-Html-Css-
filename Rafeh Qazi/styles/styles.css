@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');/*imported from google fonts*/
+body
+{
+    font-family: 'Raleway',sans-serif;/*name of font*/
+    font-weight: 1800;/*gives some weight to the font turns darker*/
+    line-height: 2.5cm;/*spacing between lines*/
+    background-image: url(../images/geometric-leaves/geometric-leaves.png);/*background pattern*/
+}
+.our-content
+{
+    font-family: 'Raleway',sans-serif;
+    max-width: 600px;/*it tells us the max width of the line alignment is the center*/
+    margin: auto;/*to split elements equally b/w margins*/
+    padding-top: 20px;/*padding from the top*/
+    padding-bottom: 60px;/*padding at the bottom of the webpage*/
+}
+ul {
+    list-style-type: none;/*used to construct the default contents of a list item's marker basically this removes the bullets*/
+    margin: -30;/*sets the bar to the left since it is negative ..rafeh qazi is at the left as this shifts the bar*/
+    width: 110%;/*width of bar*/
+    padding: 0;
+    overflow: hidden;/*it controls what happens if an element's content overflows from its set width and height*/
+    background-color: #333;/*for the bar*/
+  }
+  
+  li {
+        float:left;/*aligns left*/
+     }
+  
+  li a {/*it is used for a link in the navigation bar as home about and all*/
+    display: block;/*making the bar wider*/
+    color: white;/*text color is white*/
+    text-align: center;
+    padding: 14px 16px;/*14px from the top+bottom and 16px from the left+right*/
+    text-decoration: none;/*removes the underlines*/
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .active {/*any link which is active or the page on which we are on will show orange in the nav bar*/
+    background-color: orange;
+    
+  }
+ 
