@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+body
+{
+	font-family: 'Raleway', sans-serif;
+	background-image:url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*) ;
+	max-width: 300px;
+	margin: auto;
+}
+h1
+{
+	color: green;
+}
+h1 a/*link inside h1 will turn red*/
+{
+	color: red;
+}
+h2 a:hover /*any link inside the h2 tag when hovered will turn orange*/
+{
+	color: orange;
+}
+.mate-in-one/*. is used to turn something into a class*/
+{
+	/*border-radius: 24px;used to curve around the edges */
+	box-shadow:5px 10px orange;/*used for shadow */
+}
+.chessboard
+{
+	border-radius: 30px;
+}
+.chessboard:hover
+{
+	box-shadow: 0px 4px 39px 1px green;
+	/*-moz-box-shadow: 0px 4px 39px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 39px 1px rgba(0,0,0,0.75);*/
+}
+.mate-in-two
+{
+	box-shadow:5px 10px  red;
+}
+/*.mate-in-two:hover  {classes inheriting from this will show this property when hovered over}
+{
+	box-shadow:5px 10px red ;
+}*/
+ul
+{
+	list-style: none;/*removes bullets*/ 
+}
+ul li::before/*adds features to new bullets ..2022 is the code for bullets*/
+{
+	content: "\2022";
+	color: green;
+	font-weight: bold;
+	margin: left;
+}
+ul li a
+{
+	text-decoration: none;
+	color: hotpink;
+}
+/*a:visited{
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #ddd;
+	color: #f0f;
+}*/
