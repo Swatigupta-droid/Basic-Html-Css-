@@ -11,6 +11,6 @@ In this repository, you can find the basic explanation and code of html and css 
 
 # How to Contribute (Updated)
 
-For contributions in this repository, please read CONTRIBUTING.md first. (Please pull the changes from this repo if you have already forked the repository and are facing conflicts)
+For contributions in this repository, please read CONTRIBUTION.md first. (Please pull the changes from this repo if you have already forked the repository and are facing conflicts)
 If you like the repository, please star it.
 
