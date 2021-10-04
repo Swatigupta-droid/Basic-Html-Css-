@@ -54,6 +54,8 @@ ul li::before/*adds features to new bullets ..2022 is the code for bullets*/
 }
 ul li a
 {
+	
+	
 	text-decoration: none;
 	color: hotpink;
 }
