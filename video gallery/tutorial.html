@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/tutorial.css">
+	<link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Dosis&family=Fira+Sans:ital,wght@1,600&family=Sansita+Swashed&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/b7f37aba2d.js" crossorigin="anonymous"></script>
+	<title>Video Gallery</title>
+</head>
+<body>
+	
+
+	<div class="container1">
+		<h1>Tutorials</h1>
+		<div class="row1">
+			<div class="col">
+				<div class="img">
+					<img src="media/img1.jpg" width="100%">
+					<img src="media/play.png" class="play_btn" onclick="play('media/vd1.mp4')">
+				</div>
+				<p>Mandala Tutorial <br> <br>
+					<span>In this video you are going to learn about what mandala is and how to make it</span></p>
+			</div>
+			<div class="col">
+				<div class="small_img_row">
+					<div class="small_img">
+						<img src="media/img2.jpg" alt="">
+						<img src="media/play.png" class="play_btn" onclick="play('media/vd2.mp4')">
+					</div>
+					<p>Watercolor Painting Tutorial <br> <br>
+						<span>In this video you are going to paint using water colors</span></p>
+				</div>
+				<div class="small_img_row">
+					<div class="small_img">
+						<img src="media/img3.jpg" alt="">
+						<img src="media/play.png" class="play_btn" onclick="play('media/vd3.mp4')">
+					</div>
+					<p>Watercolor Painting Tutorial <br> <br>
+						<span>In this video you are going to paint using water colors</span></p>
+				</div>
+				<div class="small_img_row">
+					<div class="small_img">
+						<img src="media/img4.jpg" alt="">
+						<img src="media/play.png" class="play_btn" onclick="play('media/vd4.mp4')">
+					</div>
+					<p>Watercolor Painting Tutorial <br> <br>
+						<span>In this video you are going to paint using water colors</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+		<span class="sub-btn"><button class="subs"><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i>
+		Subscribe</a></button></span>
+	<div class="video" id="video_player">
+		<video width="100%" controls autoplay id="myVd">
+			<source src="media/vd1.mp4" type="video/mp4">
+		</video>
+		<img src="media/close.png" class="close" onclick="stop()">
+	</div>
+
+	
+		
+	</div>
+
+	<script type="text/javascript">
+		var video_player = document.getElementById("video_player");
+		var myVd = document.getElementById("myVd");
+
+		function stop() {
+			video_player.style.display = "none";
+		}
+
+		function play(file){
+			myVd.src = file;
+			video_player.style.display = "block";
+		}
+
+	</script>
+
+	<script>
+	var menu_items = document.getElementById("menu_items");
+
+	menu_items.style.maxHeight = "0px";
+
+	function menutoggle(){
+		if (menu_items.style.maxHeight == "0px") {
+			menu_items.style.maxHeight = "200px"
+		}
+		else{
+			menu_items.style.maxHeight = "0px";
+		}
+	}
+</script>
+
+
+</body>
+</html>
