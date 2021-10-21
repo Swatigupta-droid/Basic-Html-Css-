@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css2?family=Solway&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Calculator</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="calculator">
+				<form name="calcy">
+					<div class="appName">
+						<label for="answer">
+							Calculator
+						</label>
+						<input type="text" name="answer" class="display" id="displayAns">
+					</div>
+					<div class="row-1">
+						<input type="button" name="" id="clearBtn" value="c" class="mainKey" onclick="calcy.answer.value = '' ">
+						<input type="button" name="" id="equal" value="=" class="mainKey" onclick="calcy.answer.value = eval(calcy.answer.value)">
+					</div>
+					<div class="row">
+						<input type="button" value="7" class="numKeys"
+						onclick="calcy.answer.value +='7'">
+						<input type="button" value="8" class="numKeys" onclick="calcy.answer.value +='8'">
+						<input type="button" value="9" class="numKeys" onclick="calcy.answer.value +='9'">
+						<input type="button" value="*" class="numKeys operations" onclick="calcy.answer.value +='*'">
+					</div>
+					<div class="row">
+						<input type="button" value="4" class="numKeys" onclick="calcy.answer.value +='4'">
+						<input type="button" value="5" class="numKeys" onclick="calcy.answer.value +='5'">
+						<input type="button" value="6" class="numKeys" onclick="calcy.answer.value +='6'">
+						<input type="button" value="-" class="numKeys operations" onclick="calcy.answer.value +='-'">
+					</div>
+					<div class="row">
+						<input type="button" value="1" class="numKeys" onclick="calcy.answer.value +='1'">
+						<input type="button" value="2" class="numKeys" onclick="calcy.answer.value +='2'">
+						<input type="button" value="3" class="numKeys" onclick="calcy.answer.value +='3'">
+						<input type="button" value="+" class="numKeys operations" onclick="calcy.answer.value +='+'">
+					</div>
+					<div class="row">
+						<input type="button" value="." class="numKeys" onclick="calcy.answer.value +='.'">
+						<input type="button" value="0" class="numKeys" onclick="calcy.answer.value +='0'">
+						<input type="button" value="%" class="numKeys" onclick="calcy.answer.value +='%'">
+						<input type="button" value="/" class="numKeys operations" onclick="calcy.answer.value +='/'">
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
