@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(139, 4, 110);
+        }
+
+        h1 {
+            text-align: center;
+
+        }
+
+        p {
+            text-align: center;
+
+        }
+
+        .container {
+            border: 10px solid rgb(174, 0, 255);
+            background-color: white;
+            display: inline-block;
+            width: 35%;
+            height: 450px;
+
+            margin-left: 590px;
+            top: 18%;
+            position: absolute;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 34px;
+        }
+
+        input[type="text"] {
+            text-align: left;
+        }
+
+        .btn {
+            text-align: center;
+            font-size: 25px;
+            top: 390px;
+            width: 538px;
+            position: absolute;
+
+        }
+
+        @media (min-width:300px) and (max-width:500px) {
+            .container {
+                background-color: cyan;
+                width: 350px;
+                height: 550px;
+                top: 15%;
+                position: absolute;
+                /* margin-right: 100px;  */
+                margin-left: 75px;
+            }
+
+
+
+            .btn {
+                width: 350px;
+                top: 93%;
+                position: absolute;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Buy your Way to a better Education!</h1>
+        <p>
+            Recent changes in University of Washington policy now allow us to offer
+            grades for money. That's right! All you need to get an A in this class
+            is cold, hard, cash.
+            <hr>
+        </p>
+        <h2>Give us your money</h2>
+        <form action="">
+            <label for="">Name</label>
+            <input type="text" placeholder="Enter your name" />
+            <br>
+            <br>
+            <label for="">Section</label>
+            <select name="option" id="">
+
+                <option value="1st">select an option </option>
+                <option value="2nd">2nd</option>
+                <option value="3rd">3rd</option>
+            </select>
+            <br>
+            <br>
+            <label for="">Credit card:</label><br>
+            <label for="">Visa</label>
+            <input type="checkbox" value="visa" />
+            <label for="">Master Card</label>
+            <input type="checkbox" value="visa" /> <br>
+
+            <button class="btn">I'm a giant Sucker!</button>
+        </form>
+    </div>
+</body>
+
+</html>
