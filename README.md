@@ -1,4 +1,4 @@
-# Basic-Html-Css-
+# Basic-Html-Css
 Basic Html and CSS codes with comments explaining everything
 
 #This repository is mainly open to those who are looking to make some PR for the Hacktoberfest event, and to get started with GitHub and the open-source world. 
