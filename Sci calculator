@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <style>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    button{
+  width:200px;
+  color:yellow;
+  background-color:rgba(0,0,225,0.7);
+  font-weight:bolder;
+  border:solid 1px yellow;
+  padding:2% 5%;
+  display:block;
+  margin:5% auto;
+  border-radius:10%;
+ 
+}
+
+button:hover{
+  color:pink;
+  border:solid 1px yellow;
+}
+
+table{
+margin-top:30%;
+margin-left:25%;
+}
+
+selection{
+border-radius:100%;
+background-color:grey;
+color:green bolder;
+margin-left:50px;
+padding:10%;
+
+}
+
+marquee:hover{
+    color:green;
+
+}
+
+body{
+background-image:url("https://cdn.fansshare.
+  </style>
+  </head>
+  <body>
+  <marquee behaviour="alternative">Here You Can Check Given Options</marquee>
+ <table>
+ <tr>
+ <td>
+<button type="button" name="calculate" onclick="alert(num1 * num2);">MultiPlay</button></td></tr>
+<tr><td>
+<button type="button" name="calculate" onclick="alert(num1 - num2);">Substraction</button></td></tr>
+<tr><td>
+<button type="button" name="calculate" onclick="alert(Nu
+
+<script>
+num1=prompt("Enter First Valid value");
+num2=prompt("enter second Valid value");
+</script>
+</body>
