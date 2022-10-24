@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    color: #4181ee;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+   max-width: 300px;
+    min-height: 250px;
+    background: #02b875;
+    padding: 30px;
+    box-sizing: border-box;
+    color: #FFF;
+    margin:20px;
+    box-shadow: 0px 2px 18px -4px rgba(0,0,0,0.75);
+}
+.card:nth-child(2){
+   background: #4181ee;
+}
+.card:last-child{
+   background: #673ab7;
+}
+.card-title{
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+.card-content{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+.card-btn{
+    all: unset;
+    display: block;
+    margin-left: auto;
+    border: 2px solid #FFF;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: 600;
+    transition: all 0.5s;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+}
+.card-btn:hover{
+   color:#02b875;
+   background: #FFF;
+}
+.card:nth-child(2) .card-btn:hover{
+   color:#4181ee;
+   background: #FFF;
+}
+.card:last-child .card-btn:hover{
+   color:#673ab7;
+    background: #FFF;
+}
